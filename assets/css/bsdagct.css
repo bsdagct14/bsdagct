@@ -53,6 +53,7 @@ body {
   font-size: 15px;
   line-height: 30px;
   font-weight: 500;
+  scroll-behavior: smooth;
 }
 
 body.locked {
@@ -9048,6 +9049,7 @@ body.locked .page-wrapper {
   position: relative;
   display: block;
   margin-bottom: 30px;
+
 }
 
 .event-details__img-single img {
@@ -9199,8 +9201,7 @@ body.locked .page-wrapper {
 .event-details__map {
   position: relative;
   display: block;
-  background-color: var(--oxpins-extra);
-  border-radius: var(--oxpins-bdr-radius);
+
   margin-top: 30px;
 }
 
