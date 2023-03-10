@@ -9952,6 +9952,15 @@ body.locked .page-wrapper {
   display: none;
 }
 
+.scan {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 29px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+
+}
+
 .donate-now__enter-donation-input .bootstrap-select>.dropdown-toggle {
   position: relative;
   height: 130px;
