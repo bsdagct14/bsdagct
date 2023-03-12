@@ -8609,6 +8609,27 @@ body.locked .page-wrapper {
   margin-top: 22px;
 }
 
+#check3{
+  display: none;
+}
+
+.content3{
+  display: none;
+}
+
+label{
+  display: inline-block;
+  margin-top: 15px;
+  color: #FFFF3F;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#check3:checked ~ .content3{
+  display: block;
+}
+
 .news-details__meta {
   position: relative;
   display: flex;
